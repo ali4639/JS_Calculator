@@ -1,0 +1,117 @@
+html , body{
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #48474782;
+}
+.title{
+    text-align: center;
+    font-size: 22px;
+    color: #dbd8d8;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0 0 3px #000,0 0 1px #000;
+    margin: 10px 0;
+}
+.main{
+    width: 400px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 10px 20px 30px 20px;
+    background-color: #646464;
+    border-radius: 10px;
+    box-shadow: 0 0 80px #000000 inset, 0 0 60px #000000;
+    
+  }
+.lcd{
+    border: none;
+    font-size: 40px;
+    font-family: Arial;
+    background-color: #e3fffc;
+    padding: 5px;
+    text-align: right;
+    border-radius: 7px;
+    box-shadow: 0 0 12px #0f0e0e87 , 3px -3px 9px #09080866 inset;
+    color: #8c9594;
+    width: 386px;
+    margin-bottom: 10px;
+}
+.lcd::placeholder{
+    color: #383939;
+}
+.top_keys button{
+    background-color: #f9c64d;
+    width: 76px;
+    font-size: 20px;
+    color: #605151;
+    border: 1px solid #a9aeb378;
+    border-radius: 5px;
+    height: 35px;
+    box-shadow: 0 0 5px #825b00 inset , 0 0 5px #7b6f6f00;
+    cursor: pointer;
+}
+.top_keys button:active{
+    background-color: #e8b130;
+    color: #fff1ce;
+    box-shadow: 0 0 7px #2b2519 inset;
+    text-shadow: 0 0 7px #000;
+}
+.keys{
+    overflow: hidden;
+}
+.numbers{
+    float: left;
+}
+.clc_keys{
+    float: right;
+    width: 160px;
+}
+.keys_1 button, .keys_2 button, .keys_3 button, .keys_0 button{
+    background-color: #484747;
+    width: 76px;
+    font-size: 25px;
+    color: #bfbbbb;
+    border: 1px solid #464748c4;
+    border-radius: 5px;
+    height: 49px;
+    box-shadow: 0 0 15px #ffffffd9 inset , 0 0 15px #fff0;
+    margin-top: 4px;
+    text-shadow: 0 0 5px #0f0e0e;
+    cursor: pointer;
+}
+.keys_1 button:active, .keys_2 button:active, .keys_3 button:active, .keys_0 button:active,
+.clc_keys button:active{
+    background-color: #bdbaba;
+    box-shadow: 0 0 15px #eee7e700 , 0 0 20px #0d0d0d inset;
+    color: #4d4b4b;
+    text-shadow: 0 0 3px #fff , 0 0 7px #000;
+    border: 1px solid #979393;
+}
+.clc_keys button{
+    background-color: #484747;
+    width: 157px;
+    font-size: 25px;
+    color: #bfbbbb;
+    border: 1px solid #464748c4;
+    border-radius: 5px;
+    height: 49px;
+    box-shadow: 0 0 15px #ffffffd9 inset , 0 0 15px #fff0;
+    margin-top: 4px;
+    text-shadow: 0 0 5px #0f0e0e;
+    cursor: pointer;
+}
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    color: #414141b8;
+    text-shadow: 0 0 3px #fff;
+    margin: 7px;
+}
